@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EFB72C442BB99A6800D9B69E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C432BB99A6800D9B69E /* AppDelegate.swift */; };
-		EFB72C462BB99A6800D9B69E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C452BB99A6800D9B69E /* SceneDelegate.swift */; };
-		EFB72C482BB99A6800D9B69E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C472BB99A6800D9B69E /* ViewController.swift */; };
-		EFB72C4B2BB99A6800D9B69E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFB72C4A2BB99A6800D9B69E /* Base */; };
 		EFB72C4D2BB99A6900D9B69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB72C4C2BB99A6900D9B69E /* Assets.xcassets */; };
 		EFB72C502BB99A6900D9B69E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFB72C4F2BB99A6900D9B69E /* Base */; };
+		EFB72C582BB99AF100D9B69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB72C572BB99AF100D9B69E /* Main.storyboard */; };
+		EFB72C732BB99B0E00D9B69E /* HomeViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C592BB99B0E00D9B69E /* HomeViewmodel.swift */; };
+		EFB72C742BB99B0E00D9B69E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C5B2BB99B0E00D9B69E /* String.swift */; };
+		EFB72C752BB99B0E00D9B69E /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C5C2BB99B0E00D9B69E /* UITableView.swift */; };
+		EFB72C762BB99B0E00D9B69E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C5D2BB99B0E00D9B69E /* UIView.swift */; };
+		EFB72C772BB99B0E00D9B69E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C5F2BB99B0E00D9B69E /* Model.xcdatamodeld */; };
+		EFB72C782BB99B0E00D9B69E /* AnchorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C612BB99B0E00D9B69E /* AnchorExtension.swift */; };
+		EFB72C792BB99B0E00D9B69E /* TimeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C622BB99B0E00D9B69E /* TimeHandler.swift */; };
+		EFB72C7A2BB99B0E00D9B69E /* UserdefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C632BB99B0E00D9B69E /* UserdefaultManager.swift */; };
+		EFB72C7B2BB99B0E00D9B69E /* TextHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C652BB99B0E00D9B69E /* TextHeader.swift */; };
+		EFB72C7C2BB99B0E00D9B69E /* TextHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB72C662BB99B0E00D9B69E /* TextHeader.xib */; };
+		EFB72C7D2BB99B0E00D9B69E /* WaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C672BB99B0E00D9B69E /* WaterWaveView.swift */; };
+		EFB72C7E2BB99B0E00D9B69E /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C692BB99B0E00D9B69E /* LogCell.swift */; };
+		EFB72C7F2BB99B0E00D9B69E /* LogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB72C6A2BB99B0E00D9B69E /* LogCell.xib */; };
+		EFB72C802BB99B0E00D9B69E /* TargetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C6B2BB99B0E00D9B69E /* TargetCell.swift */; };
+		EFB72C812BB99B0E00D9B69E /* TargetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB72C6C2BB99B0E00D9B69E /* TargetCell.xib */; };
+		EFB72C822BB99B0E00D9B69E /* AddLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C6E2BB99B0E00D9B69E /* AddLogVC.swift */; };
+		EFB72C832BB99B0E00D9B69E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C6F2BB99B0E00D9B69E /* HomeVC.swift */; };
+		EFB72C842BB99B0E00D9B69E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C722BB99B0E00D9B69E /* CoreDataStack.swift */; };
+		EFB72C862BB99B1A00D9B69E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB72C852BB99B1900D9B69E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFB72C402BB99A6800D9B69E /* HydrationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydrationTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFB72C432BB99A6800D9B69E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFB72C452BB99A6800D9B69E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFB72C472BB99A6800D9B69E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFB72C4A2BB99A6800D9B69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFB72C4C2BB99A6900D9B69E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB72C4F2BB99A6900D9B69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFB72C512BB99A6900D9B69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB72C572BB99AF100D9B69E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EFB72C592BB99B0E00D9B69E /* HomeViewmodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewmodel.swift; sourceTree = "<group>"; };
+		EFB72C5B2BB99B0E00D9B69E /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		EFB72C5C2BB99B0E00D9B69E /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		EFB72C5D2BB99B0E00D9B69E /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		EFB72C602BB99B0E00D9B69E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EFB72C612BB99B0E00D9B69E /* AnchorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorExtension.swift; sourceTree = "<group>"; };
+		EFB72C622BB99B0E00D9B69E /* TimeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeHandler.swift; sourceTree = "<group>"; };
+		EFB72C632BB99B0E00D9B69E /* UserdefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserdefaultManager.swift; sourceTree = "<group>"; };
+		EFB72C652BB99B0E00D9B69E /* TextHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextHeader.swift; sourceTree = "<group>"; };
+		EFB72C662BB99B0E00D9B69E /* TextHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextHeader.xib; sourceTree = "<group>"; };
+		EFB72C672BB99B0E00D9B69E /* WaterWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterWaveView.swift; sourceTree = "<group>"; };
+		EFB72C692BB99B0E00D9B69E /* LogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogCell.swift; sourceTree = "<group>"; };
+		EFB72C6A2BB99B0E00D9B69E /* LogCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogCell.xib; sourceTree = "<group>"; };
+		EFB72C6B2BB99B0E00D9B69E /* TargetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetCell.swift; sourceTree = "<group>"; };
+		EFB72C6C2BB99B0E00D9B69E /* TargetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TargetCell.xib; sourceTree = "<group>"; };
+		EFB72C6E2BB99B0E00D9B69E /* AddLogVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLogVC.swift; sourceTree = "<group>"; };
+		EFB72C6F2BB99B0E00D9B69E /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EFB72C722BB99B0E00D9B69E /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		EFB72C852BB99B1900D9B69E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,87 @@
 		EFB72C422BB99A6800D9B69E /* HydrationTracker */ = {
 			isa = PBXGroup;
 			children = (
-				EFB72C432BB99A6800D9B69E /* AppDelegate.swift */,
-				EFB72C452BB99A6800D9B69E /* SceneDelegate.swift */,
-				EFB72C472BB99A6800D9B69E /* ViewController.swift */,
-				EFB72C492BB99A6800D9B69E /* Main.storyboard */,
+				EFB72C852BB99B1900D9B69E /* AppDelegate.swift */,
 				EFB72C4C2BB99A6900D9B69E /* Assets.xcassets */,
+				EFB72C572BB99AF100D9B69E /* Main.storyboard */,
+				EFB72C722BB99B0E00D9B69E /* CoreDataStack.swift */,
+				EFB72C5E2BB99B0E00D9B69E /* Extensions */,
+				EFB72C5F2BB99B0E00D9B69E /* Model.xcdatamodeld */,
+				EFB72C642BB99B0E00D9B69E /* Utilities */,
+				EFB72C712BB99B0E00D9B69E /* View */,
+				EFB72C5A2BB99B0E00D9B69E /* Viewmodel */,
 				EFB72C4E2BB99A6900D9B69E /* LaunchScreen.storyboard */,
 				EFB72C512BB99A6900D9B69E /* Info.plist */,
 			);
 			path = HydrationTracker;
+			sourceTree = "<group>";
+		};
+		EFB72C5A2BB99B0E00D9B69E /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				EFB72C592BB99B0E00D9B69E /* HomeViewmodel.swift */,
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		EFB72C5E2BB99B0E00D9B69E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFB72C5B2BB99B0E00D9B69E /* String.swift */,
+				EFB72C5C2BB99B0E00D9B69E /* UITableView.swift */,
+				EFB72C5D2BB99B0E00D9B69E /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFB72C642BB99B0E00D9B69E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EFB72C612BB99B0E00D9B69E /* AnchorExtension.swift */,
+				EFB72C622BB99B0E00D9B69E /* TimeHandler.swift */,
+				EFB72C632BB99B0E00D9B69E /* UserdefaultManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EFB72C682BB99B0E00D9B69E /* AuxilaryView */ = {
+			isa = PBXGroup;
+			children = (
+				EFB72C652BB99B0E00D9B69E /* TextHeader.swift */,
+				EFB72C662BB99B0E00D9B69E /* TextHeader.xib */,
+				EFB72C672BB99B0E00D9B69E /* WaterWaveView.swift */,
+			);
+			path = AuxilaryView;
+			sourceTree = "<group>";
+		};
+		EFB72C6D2BB99B0E00D9B69E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFB72C692BB99B0E00D9B69E /* LogCell.swift */,
+				EFB72C6A2BB99B0E00D9B69E /* LogCell.xib */,
+				EFB72C6B2BB99B0E00D9B69E /* TargetCell.swift */,
+				EFB72C6C2BB99B0E00D9B69E /* TargetCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		EFB72C702BB99B0E00D9B69E /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				EFB72C6E2BB99B0E00D9B69E /* AddLogVC.swift */,
+				EFB72C6F2BB99B0E00D9B69E /* HomeVC.swift */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		EFB72C712BB99B0E00D9B69E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFB72C682BB99B0E00D9B69E /* AuxilaryView */,
+				EFB72C6D2BB99B0E00D9B69E /* TableViewCell */,
+				EFB72C702BB99B0E00D9B69E /* Viewcontroller */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +203,7 @@
 				TargetAttributes = {
 					EFB72C3F2BB99A6800D9B69E = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -125,9 +230,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB72C582BB99AF100D9B69E /* Main.storyboard in Resources */,
+				EFB72C7F2BB99B0E00D9B69E /* LogCell.xib in Resources */,
+				EFB72C7C2BB99B0E00D9B69E /* TextHeader.xib in Resources */,
 				EFB72C4D2BB99A6900D9B69E /* Assets.xcassets in Resources */,
+				EFB72C812BB99B0E00D9B69E /* TargetCell.xib in Resources */,
 				EFB72C502BB99A6900D9B69E /* Base in Resources */,
-				EFB72C4B2BB99A6800D9B69E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +246,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB72C482BB99A6800D9B69E /* ViewController.swift in Sources */,
-				EFB72C442BB99A6800D9B69E /* AppDelegate.swift in Sources */,
-				EFB72C462BB99A6800D9B69E /* SceneDelegate.swift in Sources */,
+				EFB72C842BB99B0E00D9B69E /* CoreDataStack.swift in Sources */,
+				EFB72C762BB99B0E00D9B69E /* UIView.swift in Sources */,
+				EFB72C832BB99B0E00D9B69E /* HomeVC.swift in Sources */,
+				EFB72C7E2BB99B0E00D9B69E /* LogCell.swift in Sources */,
+				EFB72C802BB99B0E00D9B69E /* TargetCell.swift in Sources */,
+				EFB72C7B2BB99B0E00D9B69E /* TextHeader.swift in Sources */,
+				EFB72C742BB99B0E00D9B69E /* String.swift in Sources */,
+				EFB72C7A2BB99B0E00D9B69E /* UserdefaultManager.swift in Sources */,
+				EFB72C862BB99B1A00D9B69E /* AppDelegate.swift in Sources */,
+				EFB72C792BB99B0E00D9B69E /* TimeHandler.swift in Sources */,
+				EFB72C7D2BB99B0E00D9B69E /* WaterWaveView.swift in Sources */,
+				EFB72C772BB99B0E00D9B69E /* Model.xcdatamodeld in Sources */,
+				EFB72C732BB99B0E00D9B69E /* HomeViewmodel.swift in Sources */,
+				EFB72C822BB99B0E00D9B69E /* AddLogVC.swift in Sources */,
+				EFB72C782BB99B0E00D9B69E /* AnchorExtension.swift in Sources */,
+				EFB72C752BB99B0E00D9B69E /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EFB72C492BB99A6800D9B69E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFB72C4A2BB99A6800D9B69E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EFB72C4E2BB99A6900D9B69E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H4RSX3ALVL;
@@ -308,6 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.indian.HydrationTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H4RSX3ALVL;
@@ -363,6 +479,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFB72C5F2BB99B0E00D9B69E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFB72C602BB99B0E00D9B69E /* Model.xcdatamodel */,
+			);
+			currentVersion = EFB72C602BB99B0E00D9B69E /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = /Users/abcom/Desktop/HydrationTracker/HydrationTracker/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EFB72C382BB99A6800D9B69E /* Project object */;
 }
